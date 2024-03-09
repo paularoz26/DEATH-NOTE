@@ -42,43 +42,43 @@ const bd_juego = [
     },
     {
         id:5,
-        pregunta:"¿Cuál es el río más largo del mundo?",
-        op0:"Nilo",
-        op1:"Amazonas",
-        op2:"Eufrates",
-        correcta:"0"
+        pregunta:"¿Quien aparece entre Light y L?",
+        op0:"Aparecerá en su vida una joven llamada Misa portadora de un nuevo cuaderno que cambiará sus planes por completo.",
+        op1:"Aparecerá en su vida una joven llamada kiyomi portadora de un nuevo cuaderno que cambiará sus planes por completo.",
+        op2:"Aparecerá en su vida una joven llamada Sayu portadora de un nuevo cuaderno que cambiará sus planes por completo.",
+        correcta:""
     },
     {
         id:6,
-        pregunta:"¿Cuál es la capital de la India?",
-        op0:"Chennai",
-        op1:"Bombay",
-        op2:"Nueva Delhi",
-        correcta:"2"
+        pregunta:"¿?",
+        op0:"",
+        op1:"",
+        op2:"",
+        correcta:""
     },
     {
         id:7,
-        pregunta:"¿Qué continente se encuentra en los 4 hemisferios?",
-        op0:"Africa",
-        op1:"Europa",
-        op2:"Ninguno",
-        correcta:"0"
+        pregunta:"¿?",
+        op0:"",
+        op1:"",
+        op2:"",
+        correcta:""
     },
     {
         id:8,
-        pregunta:"¿Cuál es la capital de Egipto?",
-        op0:"Alejandría",
-        op1:"El Cairo",
-        op2:"Menfis",
-        correcta:"1"
+        pregunta:"¿?",
+        op0:"",
+        op1:"",
+        op2:"",
+        correcta:""
     },
     {
         id:9,
-        pregunta:"¿Dónde se encuentra el estrecho de Magallanes?",
-        op0:"Parte sur de america del Norte",
-        op1:"En Europa",
-        op2:"Parte su de Sudamérica",
-        correcta:"2"
+        pregunta:"¿?",
+        op0:"",
+        op1:"",
+        op2:"",
+        correcta:""
     }
 ]
 
