@@ -72,5 +72,5 @@ function desSelectors(selectors) {
       back1.style.opacity = 0.1;
       back2.style.opacity = 0.1;
     }
-  }, 1000);
+  }, 2000);
 }

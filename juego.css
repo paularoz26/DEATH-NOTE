@@ -4,6 +4,7 @@
     transition: all 0.1s;
 }
 body{
+    background-image:url(images.png);
     min-height: 100vh;
     background-color:black;
     display: flex;
@@ -11,13 +12,28 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-width:100vh;
+ 
 }
 
+.juego-barra{
+background-color: aliceblue;
+box-shadow:4px 4px 4px red ;
+
+ 
+}
+
+.memoria{
+text-shadow:3px 3px 3px rgb(224, 33, 65);
+color:white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-transform: capitalize;
+font-weight: 200;
+
+}
 
 .tablero{
-    width:800px;
-    height:700px;
+    width:980px;
+    height:960px;
     background-color:gray;
     border-radius:10px;
     box-shadow:10px 10px 10px red;
@@ -27,8 +43,8 @@ body{
     margin: 5px;
 }
 .card-area, .card, .face{
-    width: 116px;
-    height: 150px;
+    width:170px;
+    height:175px;
     min-width: 80px;
     cursor: pointer;
 }
