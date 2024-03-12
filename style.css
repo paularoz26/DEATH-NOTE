@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Silkscreen:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding:0;
@@ -13,10 +16,108 @@ header{
     box-shadow:4px 4px 4px red;
 }
 
+.bodd{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height:100vh;
+min-width:100vh;
+background-image:url(8a70dfa83232d67bf5b20ec14ccced72.jpg);
+background-repeat: no-repeat;
+background-position:center;
+
+}
+
+.cardii{
+position: relative;
+width:300px;
+height:400px;
+transform-style: preserve-3d;
+transform:perspective(1000px);
+box-shadow:20px -20px 40px rgba(238, 22, 22, 0.946);
+background-color: white;
+cursor: pointer;
+transition:2s;
+
+
+}
+
+.cardii .cont{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color:white;
+display:flex;
+justify-content: center;
+align-items: center;
+z-index:-1;
+}
+
+.ojo {
+text-align: center;
+color:red;
+
+font-style: italic;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+
+
+
+.cardii .cont h4{
+color:red;
+width: 100%;
+height:100%;
+min-height:350px;
+background:repeating-linear-gradient(rgb(18, 17, 17), rgb(16, 12, 13) 31px,black 31px rgb(12, 12, 12) 32px);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cardii .cont h4 span{
+display: block;
+font-size:1.5em ;
+}
+
+.cardii .imgBx{
+position: relative;
+width:100%;
+height:100%;
+transform-origin:left;
+transform-style: preserve-3d;
+z-index:1;
+transform:3s;
+}
+
+.cardii:hover{
+transform: translateX(50%);
+}
+
+.cardii:hover .imgBx{
+transform: rotateY(-180deg);
+
+}
+
+.cardii .imgBx img{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+transform-style:preserve-3d;
+backface-visibility: hidden;
+}
+
+.cardii .imgBx img:nth-child(2){
+transform: rotateY(180deg);
+}
+
 body{
     background-color:black;
-
-
 }
 
 .contenedor{
@@ -372,7 +473,6 @@ border:5px solid white;
     left:0;
     width:100%;
     background-color:#0a0909;
-    color:red;
     font-size:15px;
     color:red;
     padding:10px;

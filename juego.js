@@ -35,7 +35,7 @@ function generarTablero() {
                 ${iconos[0]}
                 </div>
                 <div class="face back"><img src="bca1d41b914db8fb28eef6c69de77d2afbddc681_hq.jpg"></div>
-            </div>
+                </div>
         </div>
       `);
     if (i % 2 == 1) {
